@@ -145,7 +145,7 @@ selected = option_menu(
     options=navbar_options,  # Options in the menu
     icons=["house", "graph-up", "robot"],  # Icons for the options
     menu_icon="cast",  # The icon for the menu
-    default_index=0,  # Default selected option
+    # Default selected option
     orientation="horizontal",  # Orientation of the menu
     styles={
         "container": {"padding": "0!important", "background-color": "#f9f9f9"},
