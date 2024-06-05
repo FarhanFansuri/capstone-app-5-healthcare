@@ -71,7 +71,7 @@ def login():
 # Fungsi pendaftaran
 def signup():
     st.title("Daftar")
-
+    initialize_firebase()
     # Kolom masukan untuk email dan kata sandi
     email = st.text_input("Email")
     password = st.text_input("Kata Sandi", type="password")
