@@ -1,0 +1,5 @@
+pip install tensorflow keras
+pip install streamlit
+pip scikit learn
+pip install pandas numpy
+pip install nltk

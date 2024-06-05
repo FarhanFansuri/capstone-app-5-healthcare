@@ -1,0 +1,180 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "Hai",
+        "Hi",
+        "Halo",
+        "Apa Kabar",
+        "Selamat Pagi",
+        "Selamat Siang",
+        "Selamat Malam",
+        "Salam",
+        "Ping",
+        "P"
+      ],
+      "responses": ["Halo!", "Hai", "Halo, ada yang bisa saya bantu?", "Halo selamat datang", "Hai Kawan"]
+    },
+    {
+      "tag": "selamat_tinggal",
+      "patterns": [
+        "Dadah",
+        "Selamat Tinggal",
+        "Dah",
+        "Daah",
+        "Semoga harimu menyenangkan",
+        "Ok makasih",
+        "Sampai Jumpa Lagi",
+        "Ok bye",
+        "Bye",
+        "Sampai nanti"
+      ],
+      "responses": ["Sampai jumpa lagi yaa", "Kalau ada masalah, hubungi aku lagi ya", "Semoga harimu menyenangkan!"]
+    },
+    {
+      "tag": "terima_kasih",
+      "patterns": [
+        "Terima kasih",
+        "Makasih",
+        "Terima kasih banyak",
+        "Thanks",
+        "Thank you",
+        "Aku menghargainya",
+        "Terima kasih atas bantuannya",
+        "Makasih ya",
+        "Terima kasih banyak atas bantuanmu",
+        "Terima kasih banyak atas semuanya"
+      ],
+      "responses": ["Sama-sama!", "Tidak masalah!", "Kapan saja!", "Senang bisa membantu!"]
+    },
+    {
+      "tag": "tidak_jelas",
+      "patterns": [
+        "Gghhj",
+        "123456",
+        "?????",
+        "###",
+        "...",
+        "?!",
+        "Ngomong apa?",
+        "Apaan tuh?",
+        "Saya tidak mengerti",
+        "Tidak jelas"
+      ],
+      "responses": ["Maaf, saya tidak mengerti itu.", "Bisa tolong diulangi?", "Saya tidak yakin apa yang Anda maksud.", "Maaf, saya tidak paham. Bisa dijelaskan lebih lanjut?"]
+    },
+    {
+      "tag": "opsi",
+      "patterns": [
+        "Apa yang bisa kamu lakukan?",
+        "Layanan apa yang kamu tawarkan?",
+        "Beri tahu saya apa yang bisa kamu lakukan",
+        "Bantu apa saja?",
+        "Apa saja layananmu?",
+        "Kamu bisa bantu apa?",
+        "Apa yang bisa saya tanyakan?",
+        "Layananmu apa saja?",
+        "Apa yang kamu tawarkan?",
+        "Bisa bantu apa?"
+      ],
+      "responses": ["Saya bisa membantu Anda dengan pertanyaan kesehatan kardiovaskular.", "Anda bisa menanyakan saya tentang penyakit kardiovaskular, gejala, pengobatan, dan lainnya.", "Saya bisa membantu menjawab pertanyaan tentang kesehatan jantung.", "Tanyakan saya tentang gejala, pencegahan, dan pengobatan penyakit kardiovaskular."]
+    },
+    {
+      "tag": "penyakit_kardiovaskular",
+      "patterns": [
+        "Apa itu penyakit kardiovaskular?",
+        "Ceritakan tentang penyakit jantung",
+        "Apa penyebab penyakit jantung?",
+        "Apa yang dimaksud dengan penyakit kardiovaskular?",
+        "Penyakit jantung itu apa?",
+        "Jelaskan tentang penyakit kardiovaskular",
+        "Apa itu penyakit jantung?",
+        "Bagaimana penyakit jantung terjadi?",
+        "Faktor risiko penyakit kardiovaskular apa?",
+        "Penyakit jantung koroner apa itu?"
+      ],
+      "responses": ["Penyakit kardiovaskular mengacu pada kelas penyakit yang melibatkan jantung atau pembuluh darah.", "Penyakit jantung adalah berbagai kondisi yang mempengaruhi jantung Anda.", "Penyakit kardiovaskular mencakup berbagai penyakit yang mempengaruhi jantung dan pembuluh darah.", "Penyebab umum penyakit jantung termasuk tekanan darah tinggi, diabetes, dan merokok."]
+    },
+    {
+      "tag": "gejala",
+      "patterns": [
+        "Apa gejala serangan jantung?",
+        "Gejala penyakit kardiovaskular",
+        "Bagaimana saya tahu jika saya mengalami serangan jantung?",
+        "Gejala penyakit jantung?",
+        "Ciri-ciri serangan jantung apa?",
+        "Tanda-tanda penyakit kardiovaskular?",
+        "Apa saja gejala penyakit jantung?",
+        "Tanda-tanda serangan jantung?",
+        "Gejala umum penyakit kardiovaskular?",
+        "Bagaimana tanda-tanda serangan jantung?"
+      ],
+      "responses": ["Gejala umum serangan jantung termasuk nyeri dada, sesak napas, dan mual.", "Gejala dapat bervariasi tetapi sering termasuk nyeri dada, ketidaknyamanan di area tubuh bagian atas lainnya, dan sesak napas.", "Nyeri dada, sesak napas, dan pusing adalah gejala umum penyakit kardiovaskular.", "Tanda-tanda serangan jantung meliputi nyeri dada yang parah dan keringat dingin."]
+    },
+    {
+      "tag": "pencegahan",
+      "patterns": [
+        "Bagaimana saya bisa mencegah penyakit jantung?",
+        "Tips untuk mencegah penyakit kardiovaskular",
+        "Mencegah serangan jantung",
+        "Cara mencegah penyakit jantung?",
+        "Bagaimana cara mencegah penyakit kardiovaskular?",
+        "Langkah-langkah pencegahan penyakit jantung?",
+        "Apa yang bisa dilakukan untuk mencegah serangan jantung?",
+        "Cara menjaga jantung tetap sehat?",
+        "Tips kesehatan jantung?",
+        "Pencegahan penyakit jantung koroner?"
+      ],
+      "responses": ["Untuk mencegah penyakit jantung, jaga pola makan sehat, berolahraga secara teratur, hindari merokok, dan kontrol kolesterol serta tekanan darah Anda.", "Olahraga teratur, diet seimbang, dan menghindari merokok adalah kunci untuk mencegah penyakit kardiovaskular.", "Mengurangi stres, berhenti merokok, dan menjaga berat badan sehat dapat membantu mencegah penyakit jantung.", "Mengonsumsi makanan bergizi dan berolahraga rutin sangat penting untuk mencegah penyakit kardiovaskular."]
+    },
+    {
+      "tag": "pengobatan",
+      "patterns": [
+        "Bagaimana penyakit jantung diobati?",
+        "Opsi pengobatan untuk penyakit kardiovaskular",
+        "Pengobatan serangan jantung",
+        "Bagaimana cara mengobati penyakit jantung?",
+        "Perawatan untuk penyakit kardiovaskular?",
+        "Pengobatan apa yang tersedia untuk penyakit jantung?",
+        "Cara mengobati penyakit jantung?",
+        "Pengobatan penyakit jantung?",
+        "Obat untuk penyakit kardiovaskular?",
+        "Perawatan medis untuk penyakit jantung?"
+      ],
+      "responses": ["Pengobatan untuk penyakit jantung mungkin termasuk perubahan gaya hidup, obat-obatan, dan mungkin operasi.", "Tergantung pada tingkat keparahan, pengobatan bisa berkisar dari perubahan gaya hidup dan obat-obatan hingga prosedur bedah.", "Perawatan penyakit jantung bisa melibatkan terapi medis, perubahan gaya hidup, dan intervensi bedah.", "Dokter akan menentukan pengobatan yang tepat berdasarkan kondisi spesifik pasien."]
+    },
+    {
+      "tag": "hipertensi",
+      "patterns": [
+        "Apa itu hipertensi?",
+        "Bagaimana hipertensi mempengaruhi tubuh?",
+        "Apa yang menyebabkan tekanan darah tinggi?",
+        "Hipertensi itu apa?",
+        "Mengapa hipertensi berbahaya?",
+        "Gejala hipertensi apa?",
+        "Bagaimana cara mencegah hipertensi?",
+        "Pengobatan untuk hipertensi?",
+        "Faktor risiko hipertensi?",
+        "Bagaimana cara menurunkan tekanan darah tinggi?"
+      ],
+      "responses": ["Hipertensi adalah kondisi di mana tekanan darah di arteri Anda terus meningkat.", "Hipertensi dapat menyebabkan komplikasi serius seperti penyakit jantung, stroke, dan gagal ginjal.", "Penyebab umum hipertensi termasuk faktor genetik, pola makan tidak sehat, dan kurang aktivitas fisik.", "Gejala hipertensi sering tidak terlihat, sehingga penting untuk rutin memeriksa tekanan darah."]
+    },
+    {
+      "tag": "diet",
+      "patterns": [
+        "Apa diet terbaik untuk jantung?",
+        "Bagaimana pola makan mempengaruhi kesehatan jantung?",
+        "Apa yang harus saya makan untuk menjaga kesehatan jantung?",
+        "Makanan apa yang baik untuk jantung?",
+        "Diet sehat untuk jantung seperti apa?",
+        "Makanan yang perlu dihindari untuk kesehatan jantung?",
+        "Tips diet sehat untuk jantung?",
+        "Pola makan yang baik untuk jantung?",
+        "Nutrisi untuk kesehatan jantung?",
+        "Makanan yang dapat menyehatkan jantung?"
+      ],
+      "responses": ["Diet sehat untuk jantung termasuk buah-buahan, sayuran, biji-bijian, dan protein rendah lemak.", "Hindari makanan tinggi lemak jenuh, garam, dan gula untuk menjaga kesehatan jantung Anda.", "Mengonsumsi makanan tinggi serat dan rendah lemak jenuh sangat baik untuk kesehatan jantung."]
+    }
+]
+}
