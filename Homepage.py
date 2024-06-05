@@ -29,7 +29,7 @@ with open('./Chatbot_Cardiovascular/classes.pkl', 'rb') as file:
     classes = pickle.load(file)
 
 # Load model
-model = load_model('./chatbot_model.h5')
+model = load_model('./chatbot_model.tf')
 
 # Initialize lemmatizer
 lemmatizer = WordNetLemmatizer()
