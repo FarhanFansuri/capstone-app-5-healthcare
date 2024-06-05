@@ -16,8 +16,10 @@ import random
 import streamlit as st
 import nltk
 from nltk.stem import WordNetLemmatizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences # type: ignore
-nltk.download('punkt')
+from tensorflow.keras.preprocessing.sequence import pad_sequences # type: # Set the NLTK data path
+nltk_data_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
+nltk.data.path.append(nltk_data_path)
+
 
 # Load tokenizer and classes
 with open('./Chatbot_Cardiovascular/tokenizer.pkl', 'rb') as file:
