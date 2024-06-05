@@ -16,6 +16,7 @@ import numpy as np
 import random
 import streamlit as st
 import nltk
+import tensorflow as tf
 from nltk.stem import WordNetLemmatizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences # type: # Set the NLTK data path
 nltk_data_path = os.path.join(os.path.dirname(__file__), 'nltk_data')
@@ -168,6 +169,8 @@ if selected == "Home":
     st.title("Homepage")
     st.header("Welcome to Website Application👋😁", divider="blue")
     st.title('HartZorg')
+    st.write(f'tensorflow: {tf.__version__}')
+    st.write(f'streamlit: {st.__version__}')
     "Hartzorg merupakan sebuah aplikasi yang berbasis website yang berguna untuk mencari informasi mengenai Penyakit Cardiovascular atau penyakit yang berhubungan dengan jantung dan pembuluh darah."
     "Tujuan dari aplikasi website ini yaitu, untuk membantu pengguna dalam mendeteksi dan pencegahan terhadap Penyakit Cardiovascular."
 
