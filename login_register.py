@@ -70,11 +70,11 @@ def login():
 
 # Fungsi pendaftaran
 def signup():
-    st.title("Daftar")
+    st.sidebar.title("Daftar")
     initialize_firebase()
     # Kolom masukan untuk email dan kata sandi
-    email = st.text_input("Email")
-    password = st.text_input("Kata Sandi", type="password")
+    email = st.sidebar.text_input("Email")
+    password = st.sidebar.text_input("Kata Sandi", type="password")
 
     # Tombol Daftar
     if st.button("Daftar"):
