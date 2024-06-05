@@ -31,7 +31,7 @@ model = load_model('./Chatbot_Cardiovascular/chatbot_model.h5')
 lemmatizer = WordNetLemmatizer()
 
 # Load JSON file with intents and responses
-with open('./Chatbot_Cardiovascular/dataset_chatbot.json', 'r') as file:
+with open('dataset_chatbot.json', 'r') as file:
     intents = json.load(file)
 
 # Function to get response for predicted tag
