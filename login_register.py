@@ -3,7 +3,7 @@ from firebase_admin import credentials, auth
 import streamlit as st
 import requests
 
-cred = {
+cred_data = {
   "type": "service_account",
   "project_id": "healthcare-team5",
   "private_key_id": "d7a0f21f4317bdf59fec86b7e731e955dee6131e",
@@ -20,7 +20,7 @@ cred = {
 # Fungsi untuk menginisialisasi Firebase
 def initialize_firebase():
     if not firebase_admin._apps:
-        cred = credentials.Certificate(cred)
+        cred = credentials.Certificate(cred_data)
         firebase_admin.initialize_app(cred)
 
 # Fungsi login
