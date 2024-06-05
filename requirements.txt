@@ -9,5 +9,6 @@ Keras
 scikit-learn
 nltk
 joblib
-# pickle
+pickle
+xgboost
 
