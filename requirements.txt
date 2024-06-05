@@ -1,4 +1,3 @@
-streamlit
 streamlit-option-menu
 firebase_admin
 requests
@@ -6,6 +5,6 @@ tensorflow
 numpy
 Keras
 scikit-learn
-pandas
+streamlit==1.32.2
 nltk
 
