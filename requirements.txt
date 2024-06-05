@@ -1,10 +1,12 @@
-streamlit
+
 streamlit-option-menu
 firebase_admin
 requests
-tensorflow
 numpy
-Keras
-scikit-learn
 pandas
 nltk
+pip install tensorflow keras
+pip install streamlit
+pip scikit learn
+pip install pandas numpy
+pip install nltk
