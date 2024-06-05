@@ -2,9 +2,9 @@ streamlit
 streamlit-option-menu
 firebase_admin
 requests
-tensorflow==2.15.0
+tensorflow
 numpy
-Keras==2.15.1
+Keras
 scikit-learn
 pandas
 nltk
