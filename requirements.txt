@@ -4,7 +4,7 @@ firebase_admin
 requests
 tensorflow==2.15.0
 numpy
-Keras==3.3.0
+Keras==2.15.1
 scikit-learn
 pandas
 nltk
