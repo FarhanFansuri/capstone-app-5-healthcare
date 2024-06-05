@@ -77,7 +77,7 @@ def signup():
     password = st.sidebar.text_input("Kata Sandi", type="password")
 
     # Tombol Daftar
-    if st.button("Daftar"):
+    if st.sidebar.button("Daftar"):
         if not email or not password:
             st.error("Harap isi semua kolom")
         else:
