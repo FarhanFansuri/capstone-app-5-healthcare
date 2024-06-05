@@ -193,7 +193,7 @@ elif selected == "Predict":
             return "Memiliki risiko kardiovaskular"
 
     # Muat model dari file
-    model = joblib.load('./Deteksi_Cardiovascular/model_prediksi_cardio.pkl')
+    model = joblib.load('./Deteksi_Cardiovascular/Deteksi_Cardiovascular/model_prediksi_cardio.pkl')
 
     # Title of the web app
     st.title('Prediksi Penyakit Cardiovascular')
