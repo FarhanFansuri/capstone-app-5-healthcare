@@ -157,11 +157,11 @@ selected = option_menu(
 )
 
 # Red box above the columns
-st.markdown('<div class="red-box">Fitur Utama</div>', unsafe_allow_html=True)
+# st.markdown('<div class="red-box">Fitur Utama</div>', unsafe_allow_html=True)
 
 # Main content based on navbar selection
 if selected == "Home":
-    st.title("Home")
+    st.title("Homepage")
     st.header("Welcome to Website Application👋😁", divider="blue")
     st.title('HartZorg')
     "Hartzorg merupakan sebuah aplikasi yang berbasis website yang berguna untuk mencari informasi mengenai Penyakit Cardiovascular atau penyakit yang berhubungan dengan jantung dan pembuluh darah."
